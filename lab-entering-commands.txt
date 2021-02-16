@@ -16,7 +16,44 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+'3D Objects'
+ AppData
+'Application Data'
+ Contacts
+ Cookies
+'Creative Cloud Files'
+ Desktop
+ Documents
+ Downloads
+ Evernote
+ Favorites
+ IntelGraphicsProfiles
+ Links
+'Local Settings'
+ MicrosoftEdgeBackups
+ Music
+'My Documents'
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood
+ OneDrive
+ Pictures
+ PrintHood
+ Recent
+ Roaming
+'Saved Games'
+ Searches
+ SendTo
+'Start Menu'
+ Templates
+ Videos
+ codes
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source
 
 
 ==========
@@ -26,19 +63,18 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+All the files in this directory that start with D are listed.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
-
+Desktop/   Documents/ Downloads/
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -48,7 +84,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 38712
+drwxrwxrwx 1 markallman markallman     4096 Dec  2 17:48  Adobe
 
 
 ==========
@@ -58,7 +95,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+ .                                                      'My Music'
+ ..                                                     'My Pictures'
 
 
 ==========
@@ -68,7 +106,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -78,7 +116,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l Documents
 
 
 ==========
@@ -88,7 +126,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Tab listed the two directories that begin with /b. If I press tab with ls /bi, it autocompletes /bin, while tab wit ls /bo autocompletes /boot.
 
 
 ==========
@@ -98,37 +136,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l and -a.
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls(list)
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+doesnotexist
 
 
 ==========
@@ -138,7 +176,17 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+Command 'foo' not found, did you mean:
 
+  command 'fop' from deb fop
+  command 'fox' from deb objcryst-fox
+  command 'woo' from deb python-woo
+  command 'fog' from deb ruby-fog
+  command 'fgo' from deb fgo
+  command 'fio' from deb fio
+  command 'goo' from deb goo
+
+Try: sudo apt install <deb name>
 
 
 ==========
@@ -148,7 +196,17 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+Command 'foo' not found, did you mean:
 
+  command 'goo' from deb goo
+  command 'fio' from deb fio
+  command 'fox' from deb objcryst-fox
+  command 'woo' from deb python-woo
+  command 'fog' from deb ruby-fog
+  command 'fop' from deb fop
+  command 'fgo' from deb fgo
+
+Try: sudo apt install <deb name>
 
 
 ==========
@@ -158,3 +216,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+command: ls
+flag: -a
+argument: Desktop
+prompt: ~$

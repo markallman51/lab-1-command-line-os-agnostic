@@ -30,7 +30,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/mnt/c/Users/marka/Documents/mtec1003
 
 
 ==========
@@ -41,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -52,7 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals food
 
 
 ==========
@@ -63,7 +63,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals  foo  food
 
 
 ==========
@@ -74,7 +74,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/mnt/c/Users/marka/Documents/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -85,7 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/mnt/c/Users/marka/Documents/mtec1003/foo/bar
 
 
 ==========
@@ -96,7 +96,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/mnt/c/Users/marka/Documents/mtec1003/foo/bar/baz/qux
 
  
 ==========
@@ -107,7 +107,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/mnt/c/Users/marka/Documents/mtec1003
 
 
 ==========
@@ -119,7 +119,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxrwxrwx 1 markallman markallman 4096 Feb 16 15:36 foo
 
 
 ==========
@@ -130,7 +131,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/home/markallman
 
 
 ==========
@@ -141,6 +142,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/mnt
 
 
 
@@ -152,7 +154,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/mnt
 
 
 ==========
@@ -163,13 +165,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/mnt
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
@@ -192,7 +194,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 ==========
@@ -208,7 +210,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+Feb 16 15:48
 
 
 ==========
@@ -220,7 +222,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 ==========
@@ -228,7 +230,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 ==========
@@ -241,39 +243,41 @@ What command did you use?
 ==========
 23. What command is used to delete empty directories?
 ----------
+cd ../..
 
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+-a
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 27. What's a pathname?
 ----------
-
+The series of directories that lead to a file
 
 
 ==========
 28. What's a directory?
 ----------
-
+The folders in a filesystem.
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/mnt/c/Users/marka/Downloads

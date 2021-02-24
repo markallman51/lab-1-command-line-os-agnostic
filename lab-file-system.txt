@@ -30,7 +30,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-/mnt/c/Users/marka/Documents/mtec1003
+/home/markallman/mtec1003HOME/mtec1003
 
 
 ==========
@@ -74,7 +74,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/mnt/c/Users/marka/Documents/mtec1003/foo/bar/baz/qux
+/home/markallman/mtec1003HOME/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -85,7 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/mnt/c/Users/marka/Documents/mtec1003/foo/bar
+/home/markallman/mtec1003HOME/mtec1003/foo/bar
 
 
 ==========
@@ -96,7 +96,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/mnt/c/Users/marka/Documents/mtec1003/foo/bar/baz/qux
+/home/markallman/mtec1003HOME/mtec1003/foo/bar/baz/qux
 
  
 ==========
@@ -107,7 +107,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/mnt/c/Users/marka/Documents/mtec1003
+/home/markallman/mtec1003HOME/mtec1003
 
 
 ==========
@@ -120,7 +120,7 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 total 0
-drwxrwxrwx 1 markallman markallman 4096 Feb 16 15:36 foo
+drwxr-xr-x 1 markallman markallman 4096 Feb 23 20:10 foo
 
 
 ==========
@@ -202,7 +202,7 @@ mkdir -p lemon/strawberry/orange/pineapple
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -210,7 +210,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-Feb 16 15:48
+Feb 23 20:22
 
 
 ==========
@@ -238,12 +238,12 @@ cd foo/bar/baz
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-cd ../..
+rmdir
 
 
 
@@ -268,7 +268,7 @@ pwd
 ==========
 27. What's a pathname?
 ----------
-The series of directories that lead to a file
+The series of directories that lead to a file.
 
 
 ==========
@@ -280,4 +280,4 @@ The folders in a filesystem.
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
-/mnt/c/Users/marka/Downloads
+/home/markallman/mtec1003HOME/Documents

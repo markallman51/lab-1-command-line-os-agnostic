@@ -16,60 +16,23 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-'3D Objects'
- AppData
-'Application Data'
- Contacts
- Cookies
-'Creative Cloud Files'
- Desktop
- Documents
- Downloads
- Evernote
- Favorites
- IntelGraphicsProfiles
- Links
-'Local Settings'
- MicrosoftEdgeBackups
- Music
-'My Documents'
- NTUSER.DAT
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
- NetHood
- OneDrive
- Pictures
- PrintHood
- Recent
- Roaming
-'Saved Games'
- Searches
- SendTo
-'Start Menu'
- Templates
- Videos
- codes
- ntuser.dat.LOG1
- ntuser.dat.LOG2
- ntuser.ini
- source
-
+Desktop  Documents  Music  Pictures  Videos  house  media-computation
 
 ==========
 2a. Type: 
+
 
 $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-All the files in this directory that start with D are listed.
+Nothing happens.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-Desktop/   Documents/ Downloads/
+Desktop/   Documents/
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
@@ -84,8 +47,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-total 38712
-drwxrwxrwx 1 markallman markallman     4096 Dec  2 17:48  Adobe
+total 76
+-rw-r--r-- 1 markallman markallman 47104 Feb 23 18:44 Case_Document_7-1.doc
 
 
 ==========
@@ -95,8 +58,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
- .                                                      'My Music'
- ..                                                     'My Pictures'
+.  ..  Case_Document_7-1.doc  Figure_7-4.pdf  sample-text-file.txt
 
 
 ==========
@@ -126,7 +88,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-Tab listed the two directories that begin with /b. If I press tab with ls /bi, it autocompletes /bin, while tab wit ls /bo autocompletes /boot.
+I got this error: ls: cannot access '/b': No such file or directory
 
 
 ==========
